@@ -8,7 +8,7 @@ const router = require("./routes/Userroute");
 const cors = require("cors");
 
 const corsOption = {
-  origin: "http://localhost:5173",
+  origin: "https://order-uk-project-frontend.vercel.app",
   methods: "GET,POST,PUT,DELETE,PATCH,HEAD",
   credentials: true,
 };
