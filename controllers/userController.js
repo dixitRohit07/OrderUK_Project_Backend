@@ -18,7 +18,7 @@ const Card = require("../models/card");
 
 const sendData = async (req, res) => {
   try {
-    console.log(req.body);
+    // console.log(req.body);
 
     const { name, phone, email, password } = req.body;
 
